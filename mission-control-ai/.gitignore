@@ -1,0 +1,19 @@
+# Variáveis de ambiente — NUNCA commitar a chave Ollama
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
