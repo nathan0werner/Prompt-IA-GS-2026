@@ -1,9 +1,9 @@
 # 🚀 Mission Control AI — ConnectSat (Conectividade Rural)
 
 ## Integrantes
-- Nome Completo — RM: XXXXXX — Turma: XCCXX
-- Nome Completo — RM: XXXXXX — Turma: XCCXX
-- Nome Completo — RM: XXXXXX — Turma: XCCXX
+- Nathan Guilherme Werner — RM: 572925 — Turma: 1CCPK
+- Ricardo Algazi dos Santos — RM: 569600 — Turma: 1CCPK
+
 
 ## O que o projeto faz
 Mission Control AI é um sistema de monitoramento operacional de um **satélite de
