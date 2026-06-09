@@ -66,4 +66,4 @@ Disponíveis em `data/cenarios.json`:
 - Requer conexão com a internet e chave válida da Ollama Cloud.
 
 ## Vídeo de demonstração
-🎥 [Assistir no YouTube](https://www.youtube.com/watch?v=)
+🎥 [Assistir no YouTube](https://youtu.be/EeogBgvzS8w)
