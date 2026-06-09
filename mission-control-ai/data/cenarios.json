@@ -1,0 +1,64 @@
+{
+  "cenarios": [
+    {
+      "nome": "normal",
+      "descricao": "Operação normal — todos os parâmetros dentro do range.",
+      "dados": {
+        "latencia_uplink_ms": 32.0,
+        "throughput_feixe_mbps": 240.0,
+        "saude_antena_pct": 97.0,
+        "beam_steering_erro_deg": 0.2,
+        "carga_termica_transponder_c": 52.0,
+        "energia_bateria_pct": 88.0
+      }
+    },
+    {
+      "nome": "termica_critica",
+      "descricao": "Carga térmica do transponder em nível crítico.",
+      "dados": {
+        "latencia_uplink_ms": 40.0,
+        "throughput_feixe_mbps": 210.0,
+        "saude_antena_pct": 90.0,
+        "beam_steering_erro_deg": 0.4,
+        "carga_termica_transponder_c": 98.0,
+        "energia_bateria_pct": 75.0
+      }
+    },
+    {
+      "nome": "perda_comunicacao",
+      "descricao": "Latência altíssima e throughput colapsado — perda de comunicação.",
+      "dados": {
+        "latencia_uplink_ms": 320.0,
+        "throughput_feixe_mbps": 18.0,
+        "saude_antena_pct": 82.0,
+        "beam_steering_erro_deg": 0.6,
+        "carga_termica_transponder_c": 60.0,
+        "energia_bateria_pct": 70.0
+      }
+    },
+    {
+      "nome": "energia_baixa",
+      "descricao": "Bateria em nível crítico durante eclipse.",
+      "dados": {
+        "latencia_uplink_ms": 45.0,
+        "throughput_feixe_mbps": 160.0,
+        "saude_antena_pct": 91.0,
+        "beam_steering_erro_deg": 0.3,
+        "carga_termica_transponder_c": 58.0,
+        "energia_bateria_pct": 12.0
+      }
+    },
+    {
+      "nome": "extremo_impossivel",
+      "descricao": "Teste de borda — valores fisicamente improváveis.",
+      "dados": {
+        "latencia_uplink_ms": 999.0,
+        "throughput_feixe_mbps": 0.0,
+        "saude_antena_pct": 5.0,
+        "beam_steering_erro_deg": 12.0,
+        "carga_termica_transponder_c": 145.0,
+        "energia_bateria_pct": 2.0
+      }
+    }
+  ]
+}
